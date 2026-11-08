@@ -1,0 +1,21 @@
+# ZenithPOS Pro
+
+> El sistema de Punto de Venta (POS), Facturación y Gestión de Negocios Offline-First más avanzado y ligero para Latinoamérica (Guatemala, México, Colombia, Perú, El Salvador, Honduras, etc.).
+
+## Visión General
+ZenithPOS Pro es un sistema POS profesional de grado comercial diseñado para operar 100% offline o en red local (LAN), sin depender de suscripciones en la nube ni conexión a internet obligatoria. Compatible con Android y PC de escritorio (Windows/Linux/macOS), ofrece una paridad total de funciones entre plataformas.
+
+## Capacidades Principales
+- **Offline-First Real**: Base de datos SQLite cifrada local. No requiere internet para vender, facturar, gestionar inventario o emitir reportes.
+- **Bienes Físicos y Servicios (Multi-Rubro)**: Venta de artículos con control de stock e inventario físico (kardex FIFO/promedio ponderado) y venta de servicios intangibles (mano de obra, consultas, talleres, suscripciones) sin límite de stock.
+- **Multimoneda y Localización LATAM**: Soporte nativo para Quetzal (GTQ), Dólar (USD), Peso Mexicano (MXN), Peso Colombiano (COP), Sol Peruano (PEN), Colón Costarricense (CRC), Lempira (HNL), Córdoba (NIO), Peso Dominicano (DOP), Boliviano (BOB), Peso Chileno (CLP) y Euro (EUR).
+- **Módulo de Agente IA (Protocolo MCP)**: Servidor Model Context Protocol (MCP JSON-RPC 2.0) integrado en red local. Permite a agentes de IA autónomos (Hermes, Claude, Cursor, Gemini CLI) consultar estados de caja, productos, inventario, cuentas por cobrar e inyectar pedidos de forma segura.
+- **Integración con Asistentes Móviles (Gemini / Google Assistant)**: Compatible con comandos de voz de Android y App Actions (`shortcuts.xml`) para abrir caja, registrar ventas o consultar reportes mediante comandos de voz naturales.
+- **Red Local (LAN) y Multi-Terminal**: Convierte cualquier terminal en Servidor POS LAN y permite conectar teléfonos o tablets como comandas/mostradores web sin instalar aplicaciones adicionales.
+- **Cierre de Caja y Finanzas**: Control de turnos, arqueo ciego, control de mermas, gastos de caja chica, créditos y cuentas por cobrar (fiados).
+- **Facturación y Cumplimiento SAT / FEL**: Arquitectura desacoplada lista para certificadores FEL (Guatemala) y adaptadores fiscales locales.
+- **Copias de Seguridad Cifradas (.ZNP v2)**: Backups con cifrado AES-256 autenticado contra manipulación.
+
+## Información de Repositorio y Descarga
+- Repositorio oficial de lanzamientos y APK: https://github.com/TimmyTurner502/zenithpos-releases
+- Descarga directa de APK: https://github.com/TimmyTurner502/zenithpos-releases/releases/latest/download/zenithpos-pro.apk
